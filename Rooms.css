@@ -1,0 +1,41 @@
+.rooms-heading{
+    display: flex;
+   
+    height: 150px;
+    padding: 10px;
+    background-color: rgba(211, 229, 229, 0.386);
+
+    
+}
+
+.main-card{
+    margin-top: 50px;
+    display: flex;
+    height: 300px;
+    gap: 30px;
+    margin-left: 100px;
+}
+.bedicons{
+    display: flex;
+    margin-top: 30px;
+    /* height: 30px; */
+}
+.amount{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.amount-text{
+    font-size: 40px;
+}
+.amount-texts{
+   
+    font-size: 30px;
+}
+.days-text{
+     margin-top: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.days-texts{
+    margin-top: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,81 @@
+
+
+.headerContents {
+    display: flex;
+    
+
+    .content {
+        width: 650px;
+        margin-top: 80px;
+        padding: 130px;
+    }
+
+    .contentimg {
+        height: 550px;
+        width: 835px;
+        margin-top: 30px;
+    }
+
+    
+}
+.image-container{
+    width: 100%;
+    position: relative;
+ 
+    display: inline-block;
+}
+.image-container img{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.overlay-text{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    width: 400px;
+    color: rgb(243, 244, 246);
+    text-align: center;
+    
+    background-attachment: fixed;
+    
+}
+.overlay-font{
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: normal;
+    letter-spacing: -.0847;
+    /* text-shadow: 2px 2px  white; */
+     text-wrap: wrap;
+    
+    
+   
+}
+    .searchcard-grid {
+    top: 470px; 
+    border-radius: 5rem;
+    padding: 1rem;
+    height: 100px;
+    width: 70rem;
+    background: var(--whiteColor);
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: 5%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+    background-color: white;
+    display: flex;
+    border: none;
+
+}
+.sub-search{
+    margin-bottom: 29px;
+}

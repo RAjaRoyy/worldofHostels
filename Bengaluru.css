@@ -1,0 +1,97 @@
+.bengaluru-section{
+    margin-left: 100px;
+}
+.bng-main{
+    
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.bengaluru-grid{
+    top: 520px;
+    border-radius: 5rem;
+    padding: 1rem;
+    height: 100px;
+    width: 70rem;
+    background: var(--whiteColor);
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: 5%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+    background-color: white;
+    display: flex;
+    border: none;
+}
+
+
+.bengaluru-contnt{
+    margin-top: 90px;
+    font-family: "Open Sans", sans-serif;
+    /* font-family: "Roboto", sans-serif */
+   
+}
+.bengaluru-contnt p{
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    
+
+}
+
+.bengalurutabs-content{
+    margin-top: 35px;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+.bengalurutabs-content p{
+    font-family: "Roboto", sans-serif
+
+
+}
+
+.paragraph{
+    margin-left: 100px;
+    font-size: 18px;
+}
+.groupicons{
+   margin-top: 25px;
+}
+.cardlist{
+    
+    width: 1000px;
+    height: 280px;
+}
+.card-div{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px black;
+}
+.card-div:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 1;
+    transform: scale(1);
+    background-color: rgb(214, 211, 211);
+}
+.cards{
+    height: 180px;
+    width: 250px;
+    display: flex;
+    gap: 20px;
+   
+   
+}
+.staricon{
+    width: fit-content;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-left: 20px;
+}
+.tabs-content{
+    padding: 100px;
+}

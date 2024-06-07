@@ -1,0 +1,62 @@
+.main-About{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 130px;
+}
+.para{
+    text-align: end;
+}
+.hostel-text{
+   font-size: 35px;
+   margin-top: 50px;
+   margin-left: 200px;
+}
+.dom-pic{
+    width: 370px;
+    /* height: 430px; */
+    margin-bottom: 100px;
+
+    border-radius: 15px;
+    background-color: rgb(230, 235, 235)
+}
+.dom-cont{
+    width: 500px;
+}
+.room-carts{
+    display: flex;
+    margin-left: 200px;
+    gap: 15px;
+}
+.book-icons{
+   width: 70px;
+   height: 70px; 
+   padding: 17px;
+   background-color: aquamarine;
+   margin-bottom: 20px;
+}
+.closeup-img{
+    height: 600px;
+    width: 500px;
+   
+}
+
+.rooms-a{
+    text-decoration: none;
+    width: 50px;
+}
+.rooms-button{
+   margin-bottom: 20px;
+   margin-top: 50px;
+}
+
+.question-main{
+    height: 600px;
+    margin-left: 200px;
+}
+
+  .dropdown-main{
+    display: flex;
+  }
+
+
+  

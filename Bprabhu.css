@@ -1,0 +1,160 @@
+.bprabhu-section{
+    margin-left: 100px;
+}
+.bprabhu-main{
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.bprabhu-grid{
+    top: 520px;
+    border-radius: 5rem;
+    padding: 1rem;
+    height: 100px;
+    width: 70rem;
+    background: var(--whiteColor);
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: 5%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+    background-color: white;
+    display: flex;
+    border: none;
+}
+.Bprabhus-contnt{
+    margin-top: 90px;
+}
+
+
+
+
+.gallery{
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%;
+padding:0 12px ;  
+-webkit-column-break-after: auto;  
+}
+.gallery .pics{
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.gallery .pics:hover{
+  filter: opacity(.8);
+}
+@media (max-width:991px){
+  .gallery{
+      -webkit-column-count: 10;
+      -moz-column-count: 10;
+      column-count: 10;
+       
+  }
+
+}
+@media (max-width:480px){
+  .gallery{
+      -webkit-column-count: 10;
+      -moz-column-count: 10;
+      column-count: 10;
+      -webkit-column-width: 100%;
+  -moz-column-width: 100%;
+  column-width: 100%;
+     
+       
+  }
+
+}
+.model{
+  width: 100%;
+  height: 100vh ;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  transition:opacity .4% ease , visibility .4% ease, transform .5% ease-in-out;
+  visibility: visible;
+  opacity: 0;
+  transform: scale(0);
+  overflow: hidden;
+  z-index: 999;
+}
+.model.open{
+  visibility: visible;
+  opacity: 2;
+  transform: scale(1);
+}
+.model img{
+  width: 50%;
+  /* max-width: 100%; */
+  height: 55%;
+  /* max-height: 100%; */
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 20px 0 20px;
+  margin: 0 auto;
+  filter: brightness(5px);
+  border-radius: 10px;
+ 
+
+}
+.model.open svg{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  filter: blur(0.5px);
+  border-radius: 20px;
+  cursor: pointer;
+   
+}
+
+
+.carddd {
+    /* padding: 10px; */
+    /* margin-top: 30px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* max-width: 160px;
+    max-height: 40px; */
+  
+    width: fit-content;
+    height: 40px;
+    /* text-align: center; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin: 5px auto; */
+    /* margin-right: 150px; */
+    display: flex;
+    background-color: rgb(224, 60, 27);
+  }
+ 
+  .carddd p {
+    
+   width: fit-content;
+  }
+ 
+  .carddd button {
+   height: fit-content;  
+   width: fit-content;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+ 
+  .carddd button:disabled {
+    cursor: not-allowed;
+  }

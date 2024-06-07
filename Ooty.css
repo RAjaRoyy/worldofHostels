@@ -1,0 +1,39 @@
+.ooty-section{
+    margin-left: 100px;
+    
+}
+.ooty-main{
+    border-radius: 25px;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.ooty-contnt{
+    margin-top: 90px;
+}
+ .ooty-grid {
+    top: 520px;
+    border-radius: 5rem;
+    padding: 1rem;
+    height: 100px;
+    width: 70rem;
+    background: var(--whiteColor);
+    position: absolute;
+    gap: 1rem;
+    justify-content: center;
+    bottom: 5%;
+    transform: translate(-50%);
+    left: 50%;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+    background-color: white;
+    display: flex;
+    border: none;
+
+}
+
+.ootytabs-content{
+    margin-top: 35px;
+    justify-content: center;
+    /* text-align: center; */
+
+}
